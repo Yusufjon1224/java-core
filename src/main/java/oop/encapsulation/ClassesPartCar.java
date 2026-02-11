@@ -1,6 +1,6 @@
 package oop.encapsulation;
 
-public class ClassesPart1 {
+public class ClassesPartCar {
     public static void main(String[] args) {
 
         Car car = new Car();
