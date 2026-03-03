@@ -1,4 +1,4 @@
-package oop.abstraction;
+package oop.abstraction.project;
 
 public interface PaymentService {
 
