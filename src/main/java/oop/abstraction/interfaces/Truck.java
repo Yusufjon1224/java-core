@@ -1,4 +1,9 @@
 package oop.abstraction.interfaces;
 
-public class Truck {
+public class Truck implements Trackable{
+
+    @Override
+    public void track() {
+        System.out.println(getClass().getSimpleName() + " 's coordinates recorded");
+    }
 }
