@@ -1,4 +1,4 @@
-package generics;
+package generics.project;
 
 interface Player {
 
