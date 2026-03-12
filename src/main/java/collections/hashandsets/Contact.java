@@ -39,6 +39,10 @@ public class Contact {
         return name;
     }
 
+    public String getPhones() {
+        return phones.toString();
+    }
+
     @Override
     public String toString() {
         return "%s: %s %s".formatted(name, emails, phones);

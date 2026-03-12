@@ -55,7 +55,7 @@ public class Main {
         Set<Contact> symmetricDiff2 = new HashSet<>(unionAB);
         symmetricDiff2.removeAll(intersectAB);
         printData("Symmetric Difference: phones and emails", symmetricDiff2);
-         
+
 
     }
 
